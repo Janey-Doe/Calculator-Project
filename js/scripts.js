@@ -1,9 +1,5 @@
 
-//add function
-      var divide = function(number1, number2) {
-              return number1 / number2;
-            };
-            var number1 = parseInt(prompt("Enter a number:"));
-            var number2 = parseInt(prompt("Enter another number:"));
-            var result = divide(number1, number2);
+
+            var Celsius = parseFloat(prompt("Enter a number:"));
+            var result = (Celsius * 1.8)+32;
             alert(result);
